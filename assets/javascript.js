@@ -1,14 +1,14 @@
-$(".cardIcon").hover(
+$(".card").hover(
     function(){
         $(this).animate({
-            marginTop: "10%",
+            marginTop: "1%",
         },200);
         
     },
 
     function(){
         $(this).animate({
-            marginTop: "-0%"
+            marginTop: "0%"
         },200);
     }
 )
