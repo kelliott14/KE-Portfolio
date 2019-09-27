@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    $(".cardInfo").hover(function(){
-        console.log(this)
+    $(".cardInfo").on("taphold", function(){
+        console.log("here")
         $(this).css("opacity", "0.2")
     })
 
