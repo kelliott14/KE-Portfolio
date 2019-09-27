@@ -26,9 +26,6 @@ nav{
     opacity: 0.2;
 }
 
-.touchScreen{
-    opacity: 0.2;
-}
 
 .card{
     position: relative;
@@ -87,3 +84,7 @@ a{
     color:#343a40;
 }
 
+
+.touchScreen{
+    opacity: 0.2;
+}
