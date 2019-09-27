@@ -26,6 +26,10 @@ nav{
     opacity: 0.2;
 }
 
+.touchScreen{
+    opacity: 0.2;
+}
+
 .card{
     position: relative;
     margin: 0 auto;

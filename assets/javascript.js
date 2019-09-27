@@ -1,17 +1,7 @@
 $(document).ready(function() {
-    $(".cardInfo").on("taphold", function(){
-        console.log("here")
-        $(this).css("opacity", "0.2")
-    })
-
-
-
-
-
-
-
-
-
+    if ("ontouchstart" in document.documentElement){
+        $(".cardInfo").addClass("touchScreen")
+    }
 
 
 });
