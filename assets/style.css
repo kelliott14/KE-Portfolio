@@ -14,7 +14,6 @@ a:hover{
 
 nav{
     font-family: 'Cabin Sketch', cursive;
-    font-size: 28px;
 }
 
 .portfolioItem:focus{
@@ -100,17 +99,28 @@ a:hover{
 
 li{
     color: white;
-    font-size: 22px;
+    font-size: 20px;
 }
 
-.nav-item{
+.nav-item,
+.navbar-brand{
     padding-left: 40px;
 }
 
-.nav-link:hover{
+.nav-link:hover,
+.navbar-brand:hover{
     transform: scale(1.1);
 }
 
 .bio{
+    font-size: 22px;
+}
+
+h1{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.nav-brand{
     font-size: 22px;
 }
