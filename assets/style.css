@@ -3,7 +3,8 @@ body{
 }
 
 h5,
-h4{
+h4,
+h1{
     font-family: 'Chango', cursive;
 }
 
@@ -13,6 +14,7 @@ h4{
     width: 100vw;
     position: relative;
     background: linear-gradient(90deg, #EAE8E4 50%, #f3c148 50%);
+    padding: 4rem 4rem 4rem 5rem;
 }
 
 .Bcontainer{
@@ -21,7 +23,7 @@ h4{
     width: 100vw;
     position: relative;
     background: linear-gradient(90deg, #f3c148 50%,  #EAE8E4 50%);
-    padding: 4rem;
+    padding: 4rem 4rem 4rem 5rem;
 }
 
 .info{
@@ -49,12 +51,27 @@ h4{
     border-radius: 20px;
 }
 
-ul{
+.cardUl{
     list-style-type:none;
     padding-left: 1rem;
     padding-bottom: 1rem;
 }
 
+.collapseIcon{
+    width: 0.9rem;
+    top: 0.7rem;
+    position: absolute;
+    right: 0.4rem;
+}
+
+.bio{
+    padding-top: 15rem;
+}
+
+a{
+    color: #544259;
+    font-weight: 700;
+}
 /* 
 .rightCol{
     border-left: grey 2px solid;
