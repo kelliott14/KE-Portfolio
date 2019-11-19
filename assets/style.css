@@ -1,11 +1,49 @@
 body{
-    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    
     font-family: 'Cabin Sketch', cursive;
     color: white;
 }
 
-.container{
-    margin-top: 40px;
+.Acontainer{
+    
+    float: left;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: linear-gradient(90deg, #EAE8E4 50%, #f3c148 50%);
+}
+
+.Bcontainer{
+    
+    float: left;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: linear-gradient(90deg, #f3c148 50%,  #EAE8E4 50%);
+}
+
+.info{
+    position: fixed;
+    color: black;
+    left: 1px;
+    top: 25%;
+    z-index: 99;
+    background-color: #544259;
+    border-radius: 10px;
+    padding: 10px;
+    color: #EAE8E4;
+}
+
+/* 
+.rightCol{
+    border-left: grey 2px solid;
+}
+
+.mainCol{
+    position: absolute;
+    background-color: black;
+    height: 50px;
+    left: 100px;
 }
 
 a:hover{
@@ -36,6 +74,7 @@ nav{
     border-radius: 0;
     display: inline-block;
     border: none;
+    height: 80vh;
 }
 
 .img-thumbnail{
@@ -134,4 +173,8 @@ h1{
     li{
         font-size: 18px;
     }
-}
+
+    .leftCol{
+        width: 25%;
+    }
+} */
