@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    $(".infoText").hide();
-    $(".infoText").attr("visible-status", "hide");
+    $(".infoText").show("slow", function(){});
+    $(".infoText").attr("visible-status", "show");
 
     if ("ontouchstart" in document.documentElement){
         $(".cardInfo").addClass("touchScreen")
@@ -8,10 +8,10 @@ $(document).ready(function() {
 
     $(".info").on("click", function(){
         if ($(".infoText").attr("visible-status") == "show"){
-            $(".infoText").hide();
+            $(".infoText").hide("slow", function(){});
             $(".infoText").attr("visible-status", "hide");
         }else {
-            $(".infoText").show();
+            $(".infoText").show("slow", function(){});
             $(".infoText").attr("visible-status", "show");
         }
     })
