@@ -21,32 +21,44 @@
 
 <div class="Acontainer">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-2">
           <div class="info">
-              <span class="badge"><img class="collapseIcon" src="./assets/images/collapseIcon.png">
-              </span>
-            <h4 class="title">KE</h4>
+            <span class="badge"><img class="collapseIcon" src="./assets/images/collapseIcon.png">
+            </span>
             <div class="infoText">
+              <h4>Menu</h4>
               <ul>
-                <li>about</li>
-                <li>contact</li>
+                <li><a class="menuLink" href="#about">about</a></li>
+                <li><a class="menuLink" href="#contact" target="_top">contact</a></li>
+                <li><a class="menuLink" href="#portfolio" target="_top">portfolio</a></li>
               </ul>
             </div>
           </div>
       </div>
 
-      <div class="col-md-9">
-        <div class="bio">
+      <div class="col-md-10">
+        <div class="bio" id="about">
           <h1>hello, my name is Katie.</h1>
-          <p>I am a student at <a href="https://techbootcamp.sydney.edu.au/?utm_source=university-course-page" target="_blank">The Coding Bootcamp at the University of Sydney,</a>
+          <p>I am a student at <a id= "bootcampLink" href="https://techbootcamp.sydney.edu.au/?utm_source=university-course-page" target="_blank">The Coding Bootcamp at the University of Sydney,</a>
            graduating in January 2020. After more than 10 years in administrative roles, I've followed my fascination with web development into a 6mth full-stack coding course.
           Scroll to see what I've created so far.</p>
+        </div>
+        <div class="contactLinks" id="contact">
+          <h2>contact details.</h2>
+          <ul class="contactUl">
+            <li>kate.elliott14@gmail.com</li>
+            <li><a href="./assets/2019 10 - Resume - Katie Elliott.pdf" target="_blank" >download my cv</a></li>
+            <li><a href="https://github.com/kelliott14" target="_blank" >github</a></li>
+            <li><a href="https://www.linkedin.com/in/katie-elliott-sydney/" target="_blank">linkedin</a></li>
+          </ul>
+          
+          
         </div>
       </div>
   </div>
 </div>
 
-<div class="Bcontainer">
+<div class="Bcontainer" id="portfolio">
   <div class="row">
     <div class="card cardOne" style="width: 18rem;">
         <img class="card-img-top cardOneImg" src="./assets/images/HandlebarsThumbnail.JPG" alt="handlebars sample">
@@ -63,6 +75,38 @@
           <a class="btn btn-outline-dark cardOneBtn" href="https://floating-mesa-55726.herokuapp.com/" target="_blank" role="button">demo</a>
         </div>
       </div>
+
+    <div class="card cardTwo" style="width: 18rem;">
+        <img class="card-img-top cardTwoImg" src="./assets/images/nodeJSThumbnail.JPG" alt="node.js sample">
+        <div class="card-body">
+          <h5 class="card-title">node.js app</h5>
+          <ul class="cardUl">
+            <li>node.js</li>
+            <li>express</li>
+            <li>spotify api</li>
+            <li>axios</li>
+          </ul>
+          <a class="btn btn-outline-dark cardOneBtn" href="https://github.com/kelliott14/liri-node-app" target="_blank" role="button">code</a>
+        </div>
+      </div>
+
+    <div class="card cardThree" style="width: 18rem;">
+        <img class="card-img-top cardThreeImg" src="./assets/images/GroupProject2Thumbnail.JPG" alt="group project sample">
+        <div class="card-body">
+          <h5 class="card-title">group project</h5>
+          <ul class="cardUl">
+            <li>node.js</li>
+            <li>mySQL</li>
+            <li>express</li>
+            <li>express-handlebars</li>
+            <li>sequelize</li>
+            <li>bootstrap</li>
+          </ul>
+          <a class="btn btn-outline-dark cardOneBtn" href="https://github.com/kelliott14/Project-2" target="_blank" role="button">code</a>
+          <a class="btn btn-outline-dark cardOneBtn" href="https://project-2-group-4.herokuapp.com/" target="_blank" role="button">demo</a>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -70,12 +114,7 @@
 
     <div class="card-columns">
 
-        <div class="card portfolioItem rounded-0 border-top border-light"  style="margin-bottom: 2.75rem">
-            <a href="https://github.com/kelliott14/liri-node-app" target="_blank">
-              <div class="cardInfo"> <h5 class="card-title">Node.js</h5></div>
-              <img src="./assets/images/nodeJSThumbnail.JPG" class="card-img img-thumbnail" alt="Node.js">
-            </a>
-          </div>
+        
 
       <div class="card portfolioItem rounded-0 border-top border-light"  style="margin-bottom: 2.75rem">
         <a href="https://kelliott14.github.io/Unit-4-Game/" target="_blank">

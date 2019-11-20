@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $(".infoText").hide("slow", function(){});
     $(".infoText").attr("visible-status", "hide");
-    $(".collapseIcon").css({"transform": "rotate(0deg)"});
+    $(".collapseIcon").css({"transform": "rotate(-180deg)"});
 
     if ("ontouchstart" in document.documentElement){
         $(".cardInfo").addClass("touchScreen")
@@ -11,11 +11,11 @@ $(document).ready(function() {
         if ($(".infoText").attr("visible-status") == "show"){
             $(".infoText").hide("slow", function(){});
             $(".infoText").attr("visible-status", "hide");
-            $(".collapseIcon").css({"transform": "rotate(0deg)"});
+            $(".collapseIcon").css({"transform": "rotate(-180deg)"});
         }else {
             $(".infoText").show("slow", function(){});
             $(".infoText").attr("visible-status", "show");
-            $(".collapseIcon").css({"transform": "rotate(-180deg)"});
+            $(".collapseIcon").css({"transform": "rotate(0deg)"});
         }
     })
 
