@@ -120,22 +120,22 @@ h2{
 }
 
 
-.cardThree{
+.cardOpt1{
     background: #B1504E;
     color: #333333;
 }
 
-.cardFour{
+.cardOpt2{
     background-color: #80CAD9;
     color: #EAE8E4;
 }
 
-.cardTwo{
+.cardOpt3{
     background-color: #123840;
     color: #EAE8E4;
 }
 
-.cardOne{
+.cardOpt4{
     background-color: #D980A4;
 }
 
@@ -144,7 +144,7 @@ h2{
 }
 
 .no-gutter-card-deck > .card {
-margin: 0;
+    margin: 0;
 }
 
 /* 

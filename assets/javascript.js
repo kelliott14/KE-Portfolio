@@ -17,6 +17,18 @@ $(document).ready(function() {
             $(".infoText").attr("visible-status", "show");
             $(".collapseIcon").css({"transform": "rotate(0deg)"});
         }
-    })
+    });
+
+    var num;
+
+    $(".cardInfo").hover( function() {
+        num = Math.floor(Math.random() * 4) + 1;
+        $(this).addClass("cardOpt" + num)
+    },
+    
+        function() {
+            $(this).removeClass("cardOpt" + num);
+        })
 
 });
+
