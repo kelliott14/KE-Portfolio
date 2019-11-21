@@ -19,19 +19,13 @@ h2{
 .Acontainer{
     float: left;
     height: 100vh;
-    width: 100vw;
-    position: relative;
-    /* background: linear-gradient(90deg, #EAE8E4 50%, #f3c148 50%); */
     padding: 4rem 4rem 4rem 5rem;
 }
 
 .Bcontainer{
     float: left;
     height: 100vh;
-    width: 100vw;
-    position: relative;
-    /* background: linear-gradient(90deg, #f3c148 50%,  #EAE8E4 50%); */
-    padding: 4rem 4rem 4rem 5rem;
+    padding-left: 5rem;
 }
 
 .info{
@@ -54,10 +48,6 @@ h2{
     text-decoration: none;
     font-weight: 700;
     color: #A08BA6;
-}
-
-.cardOne{
-    height: 28rem;
 }
 
 .btn{
@@ -84,17 +74,16 @@ h2{
     padding-top: 20%;
 }
 
-
-
 #bootcampLink{
     color: #544259;
     font-weight: 700;
 }
 
 .card{
-    margin-left: 1rem;
+    margin: 0;
     border: none;
     border-radius: none;
+    height: 18rem;
 }
 
 .cardInfo{
@@ -130,18 +119,32 @@ h2{
     margin-left: 1.5rem;
 }
 
+
 .cardThree{
     background: #B1504E;
     color: #333333;
 }
 
 .cardFour{
-    background-color: #123840;
+    background-color: #80CAD9;
     color: #EAE8E4;
 }
 
 .cardTwo{
-    background-color: #80CAD9;
+    background-color: #123840;
+    color: #EAE8E4;
+}
+
+.cardOne{
+    background-color: #D980A4;
+}
+
+.no-gutter-card-deck.card-columns {
+    column-gap: 0;
+}
+
+.no-gutter-card-deck > .card {
+margin: 0;
 }
 
 /* 
