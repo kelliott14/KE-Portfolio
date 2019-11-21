@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(90deg, #EAE8E4 50%, #72A692 50%);
+    background: #EAE8E4;
     color: #333333;
 }
 
@@ -19,13 +19,13 @@ h2{
 .Acontainer{
     float: left;
     height: 100vh;
-    padding: 4rem 4rem 4rem 5rem;
+    padding-left: 2rem;
 }
 
 .Bcontainer{
     float: left;
     height: 100vh;
-    padding-left: 5rem;
+    padding-left: 2rem;
 }
 
 .info{
@@ -97,7 +97,7 @@ h2{
     padding: 1.5rem;
     opacity: 0;
     transition-property: opacity;
-	transition-duration: 0.5s;
+	transition-duration: 0.4s;
 	transition-timing-function: linear;
 }
 
@@ -120,27 +120,9 @@ h2{
 }
 
 
-.cardOpt1{
-    background: #B1504E;
-    color: #333333;
-}
-
-.cardOpt2{
-    background-color: #80CAD9;
-    color: #EAE8E4;
-}
-
-.cardOpt3{
-    background-color: #123840;
-    color: #EAE8E4;
-}
-
-.cardOpt4{
-    background-color: #D980A4;
-}
-
 .no-gutter-card-deck.card-columns {
     column-gap: 0;
+    margin-bottom: 1rem;
 }
 
 .no-gutter-card-deck > .card {
