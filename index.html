@@ -11,109 +11,193 @@
 
     <title>Katie Elliott Portfolio</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chango|Open+Sans&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: transparent;">
-         <a class="navbar-brand" style="color: white" href="./index.html">KE</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html" style="color: white">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./contact.html" style="color: white">Contact</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
 
 <div class="container">
-
-    <div class="card-columns">
-
-        <div class="card portfolioItem rounded-0 border-top border-light"  style="margin-bottom: 2.75rem">
-            <a href="https://github.com/kelliott14/liri-node-app" target="_blank">
-              <div class="cardInfo"> <h5 class="card-title">Node.js</h5></div>
-              <img src="./assets/images/nodeJSThumbnail.JPG" class="card-img img-thumbnail" alt="Node.js">
-            </a>
+    <div class="row Acontainer">
+      <div class="col-md-2">
+          <div class="info">
+            <span class="badge"><img class="collapseIcon" src="./assets/images/collapseIcon.png">
+            </span>
+            <div class="infoText">
+              <h4>Menu</h4>
+              <ul>
+                <li><a class="menuLink" href="#about">about</a></li>
+                <li><a class="menuLink" href="#contact" target="_top">contact</a></li>
+                <li><a class="menuLink" href="#portfolio" target="_top">portfolio</a></li>
+              </ul>
+            </div>
           </div>
-
-      <div class="card portfolioItem rounded-0 border-top border-light"  style="margin-bottom: 2.75rem">
-        <a href="https://kelliott14.github.io/Unit-4-Game/" target="_blank">
-          <div class="cardInfo"> <h5 class="card-title">Javascript Game</h5></div>
-          <img src="./assets/images/StonesThumbnail1.JPG" class="card-img img-thumbnail" alt="Javascript Game">
-        </a>
-      </div>
-    
-      <div class="card portfolioItem rounded-0 border-top border-light"  style="margin-bottom: 2.75rem">
-        <a href="https://kelliott14.github.io/PronouncedGif/" target="_blank">
-          <div class="cardInfo"> <h5 class="card-title">Gify API</h5></div>
-          <img src="./assets/images/GifThumbnail.JPG" class="card-img img-thumbnail" alt="Gify API">
-        </a>
       </div>
 
-      <div class="card portfolioItem rounded-0 border-top border-light"  style="margin-bottom: 2.75rem">
-        <a href="https://floating-mesa-55726.herokuapp.com/" target="_blank">
-          <div class="cardInfo"> <h5 class="card-title">express-handlebars</h5></div>
-          <img src="./assets/images/HandlebarsThumbnail.JPG" class="card-img img-thumbnail" alt="express-handlebars">
-        </a>
-      </div>
-
-      <div class="card portfolioItem rounded-0 border-top border-light"  style="margin-bottom: 2.75rem">
-        <a href="https://github.com/kelliott14/Bamazon" target="_blank">
-          <div class="cardInfo"> <h5 class="card-title">mySQL & Node.js</h5></div>
-          <img src="./assets/images/mySQLThumbnail.JPG" class="card-img img-thumbnail" alt="mySQL">
-        </a>
-      </div>
-      
-      <div class="card portfolioItem rounded-0 border-top border-light"  style="margin-bottom: 2.75rem">
-          <a href="https://kelliott14.github.io/RockPaperScissors/" target="_blank">
-            <div class="cardInfo"> <h5 class="card-title">Multi-Player Game</h5></div>
-            <img src="./assets/images/RPSThumbnail.JPG" class="card-img img-thumbnail" alt="Multi-Player Game">
-          </a>
+      <div class="col-md-10">
+        <div class="bio" id="about">
+          <h1>hello, my name is Katie.</h1>
+          <p>I am a student at <a id= "bootcampLink" href="https://techbootcamp.sydney.edu.au/?utm_source=university-course-page" target="_blank">The Coding Bootcamp at the University of Sydney,</a>
+           graduating in January 2020. After more than 10 years in administrative roles, I've followed my fascination with web development into a 6mth full-stack coding course.
+          Scroll to see what I've created so far.</p>
         </div>
-        
-        <div class="card portfolioItem rounded-0 border-top border-light"  style="margin-bottom: 2.75rem">
-            <a href="https://github.com/kelliott14/ConstructorWordGuess" target="_blank">
-              <div class="cardInfo"> <h5 class="card-title">JS Contructors</h5></div>
-              <img src="./assets/images/InquirerThumbnail.JPG" class="card-img img-thumbnail" alt="JS Contructors">
-            </a>
-          </div>
-
-      <div class="card portfolioItem rounded-0 border-top border-light"  style="margin-bottom: 2.75rem">
-          <a href="https://kelliott14.github.io/TriviaGame/" target="_blank">
-            <div class="cardInfo"> <h5 class="card-title">Timers Game</h5></div>
-              <img src="./assets/images/TriviaThumbnail1.JPG" class="card-img img-thumbnail" alt="Timers Game">
-          </a>
+        <div class="contactLinks" id="contact">
+          <h2>contact details.</h2>
+          <ul class="contactUl">
+            <li>kate.elliott14@gmail.com</li>
+            <li><a href="./assets/KatieElliottCV.pdf" target="_blank" >download my cv</a></li>
+            <li><a href="https://github.com/kelliott14" target="_blank" >github</a></li>
+            <li><a href="https://www.linkedin.com/in/katie-elliott-sydney/" target="_blank">linkedin</a></li>
+          </ul>
+          
+          
+        </div>
       </div>
-      
-      <div class="card portfolioItem rounded-0 border-top border-light"  style="margin-bottom: 2.75rem">
-          <a href="https://hugo-engineer.github.io/project-kha/" target="_blank">
-            <div class="cardInfo"> <h5 class="card-title">Group Project</h5></div>
-              <img src="./assets/images/GroupProjectThumbnail.JPG" class="card-img img-thumbnail" alt="Group Project">
-          </a>
-      </div>
-
-      <div class="card portfolioItem rounded-0 border-top border-light"  style="margin-bottom: 2.75rem">
-          <a href="https://kelliott14.github.io/Unit-4-Game-2/" target="_blank">
-            <div class="cardInfo"> <h5 class="card-title">Role Playing Game</h5></div>
-              <img src="./assets/images//RPGThumnail1.JPG" class="card-img img-thumbnail" alt="RPG Game">
-          </a>
-      </div>
-
-  
-    </div>
-
+  </div>
 </div>
 
+<div class="container Bcontainer" id="portfolio">
+    <h2>portfolio.</h2>
+    <div class="card-columns no-gutter-card-deck">
+
+    <div class="card">
+        <div class="card-body cardInfo cardOne">
+          <h5 class="card-title">to-do app</h5>
+          <ul class="cardUl">
+              <li>mySQL</li>
+              <li>node.js</li>
+              <li>express</li>
+              <li>express-handlebars</li>
+              <li>heroku & jawsdb deployment</li>
+          </ul>
+          <a class="btn btn-outline-dark blkTitle" href="https://github.com/kelliott14/Unit14-Homework" target="_blank" role="button">code</a>
+          <div id="spacer" style="width: 6rem; height: 6rem; display:inline-block"></div>
+          <a class="btn btn-outline-dark blkTitle" href="https://floating-mesa-55726.herokuapp.com/" target="_blank" role="button">demo</a>
+        </div>
+        <img class="card-img img-thumbnail rounded-0" src="./assets/images/HandlebarsThumbnail.JPG" alt="node.js sample">
+        <h5 class="card-title imgTitle blkTitle">to-do app</h5>
+    </div>
+
+      <div class="card" >
+          <div class="card-body cardInfo cardTwo">
+            <h5 class="card-title">node.js app</h5>
+            <ul class="cardUl">
+              <li>node.js</li>
+              <li>express</li>
+              <li>spotify api</li>
+              <li>axios</li>
+            </ul>
+            <a class="btn btn-outline-light whtTitle" href="https://github.com/kelliott14/liri-node-app" target="_blank" role="button">code</a>
+            <div id="spacer" style="width: 6rem; height: 6rem; display:inline-block"></div>
+          </div>
+          <img class="card-img img-thumbnail rounded-0" src="./assets/images/nodeJSThumbnail.JPG" alt="node.js sample">
+          <h5 class="card-title imgTitle whtTitle">node.js app</h5>
+      </div>
+
+    <div class="card" >
+        <div class="card-body cardInfo cardThree">
+          <h5 class="card-title">group project</h5>
+          <ul class="cardUl">
+            <li>node.js</li>
+            <li>mySQL</li>
+            <li>express</li>
+            <li>express-handlebars</li>
+            <li>sequelize</li>
+            <li>bootstrap</li>
+          </ul>
+          <a class="btn btn-outline-dark blkTitle" href="https://github.com/kelliott14/Project-2" target="_blank" role="button">code</a>
+          <div id="spacer" style="width: 6rem; height: 6rem; display:inline-block"></div>
+          <a class="btn btn-outline-dark blkTitle" href="https://project-2-group-4.herokuapp.com/" target="_blank" role="button">demo</a>
+        </div>
+        <img class="card-img img-thumbnail rounded-0" src="./assets/images/GroupProject2Thumbnail.JPG" alt="group project sample">
+        <h5 class="card-title imgTitle blkTitle">group project</h5>
+    </div>
+
+    <div class="card" >
+        <div class="card-body cardInfo cardFour">
+          <h5 class="card-title">javascript game</h5>
+          <ul class="cardUl">
+            <li>javascript</li>
+            <li>css</li>
+            <li>bootstrap</li>
+          </ul>
+          <a class="btn btn-outline-light whtTitle" href="https://github.com/kelliott14/Unit-4-Game" target="_blank" role="button">code</a>
+          <div id="spacer" style="width: 6rem; height: 6rem; display:inline-block"></div>
+          <a class="btn btn-outline-light whtTitle" href="https://kelliott14.github.io/Unit-4-Game/" target="_blank" role="button">demo</a>
+        </div>
+        <img class="card-img img-thumbnail rounded-0" src="./assets/images/StonesThumbnail1.JPG" alt="javascript sample">
+        <h5 class="card-title imgTitle whtTitle">javascript game</h5>
+    </div>
+
+    <div class="card" >
+        <div class="card-body cardInfo cardFive">
+          <h5 class="card-title">api app</h5>
+          <ul class="cardUl">
+            <li>javascript</li>
+            <li>css</li>
+            <li>bootstrap</li>
+          </ul>
+          <a class="btn btn-outline-light whtTitle" href="https://github.com/kelliott14/Unit-4-Game" target="_blank" role="button">code</a>
+          <div id="spacer" style="width: 6rem; height: 6rem; display:inline-block"></div>
+          <a class="btn btn-outline-light whtTitle" href="https://kelliott14.github.io/PronouncedGif/" target="_blank" role="button">demo</a>
+        </div>
+        <img class="card-img img-thumbnail rounded-0" src="./assets/images/GifThumbnail.JPG" alt="api app sample">
+        <h5 class="card-title imgTitle blkTitle">api app</h5>
+    </div>
+
+    <div class="card" >
+        <div class="card-body cardInfo cardSix">
+          <h5 class="card-title">mySQL app</h5>
+          <ul class="cardUl">
+            <li>node.js</li>
+            <li>mySQL</li>
+            <li>express</li>
+          </ul>
+          <a class="btn btn-outline-light whtTitle" href="https://github.com/kelliott14/Bamazon" target="_blank" role="button">code</a>
+          <div id="spacer" style="width: 6rem; height: 6rem; display:inline-block"></div>
+        </div>
+        <img class="card-img img-thumbnail rounded-0" src="./assets/images/mySQLThumbnail.JPG" alt="mySQL app sample">
+        <h5 class="card-title imgTitle whtTitle">mySQL app</h5>
+    </div>
+
+    <div class="card" >
+        <div class="card-body cardInfo cardSeven">
+          <h5 class="card-title">multi-player app</h5>
+          <ul class="cardUl">
+            <li>javascript</li>
+            <li>jquery</li>
+            <li>firebase</li>
+            <li>bootstrap</li>
+          </ul>
+          <a class="btn btn-outline-light whtTitle" href="https://github.com/kelliott14/RockPaperScissors" target="_blank" role="button">code</a>
+          <div id="spacer" style="width: 6rem; height: 6rem; display:inline-block"></div>
+          <a class="btn btn-outline-light whtTitle" href="https://kelliott14.github.io/RockPaperScissors" target="_blank" role="button">demo</a>
+        </div>
+        <img class="card-img img-thumbnail rounded-0" src="./assets/images/RPSThumbnail.JPG" alt="multi-player app sample">
+        <h5 class="card-title imgTitle blkTitle">multi-player app</h5>
+    </div>
+
+    <div class="card" >
+        <div class="card-body cardInfo cardEight">
+          <h5 class="card-title">javascript app</h5>
+          <ul class="cardUl">
+            <li>javascript</li>
+            <li>jquery</li>
+            <li>timers</li>
+            <li>bootstrap</li>
+          </ul>
+          <a class="btn btn-outline-light whtTitle" href="https://github.com/kelliott14/TriviaGame" target="_blank" role="button">code</a>
+          <div id="spacer" style="width: 6rem; height: 6rem; display:inline-block"></div>
+          <a class="btn btn-outline-light whtTitle" href="https://kelliott14.github.io/TriviaGame/" target="_blank" role="button">demo</a>
+        </div>
+        <img class="card-img img-thumbnail rounded-0" src="./assets/images/TriviaThumbnail1.JPG" alt="javascript app sample">
+        <h5 class="card-title imgTitle blkTitle">javascript app</h5>
+    </div>
+    
+    </div>
+  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/javascript.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

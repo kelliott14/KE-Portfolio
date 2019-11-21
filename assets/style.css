@@ -1,11 +1,162 @@
 body{
-    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
-    font-family: 'Cabin Sketch', cursive;
-    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(90deg, #EAE8E4 50%, #72A692 50%);
+    color: #333333;
 }
 
-.container{
-    margin-top: 40px;
+a,
+.blkTitle{
+    color: #333333;
+}
+
+h5,
+h4,
+h1,
+h2{
+    font-family: 'Chango', cursive;
+}
+
+.Acontainer{
+    float: left;
+    height: 100vh;
+    padding: 4rem 4rem 4rem 5rem;
+}
+
+.Bcontainer{
+    float: left;
+    height: 100vh;
+    padding-left: 5rem;
+}
+
+.info{
+    position: fixed;
+    left: 1px;
+    top: 10%;
+    z-index: 99;
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 10px;
+    color: #EAE8E4;
+}
+
+.menuLink,
+.whtTitle{
+    color: #EAE8E4;
+}
+
+.menuLink:hover{
+    text-decoration: none;
+    font-weight: 700;
+    color: #A08BA6;
+}
+
+.btn{
+    border-radius: 20px;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.cardUl,
+.contactUl{
+    list-style-type:none;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.collapseIcon{
+    width: 0.9rem;
+    top: 0.7rem;
+    position: absolute;
+    right: 0.4rem;
+}
+
+.bio{
+    padding-top: 20%;
+}
+
+#bootcampLink{
+    color: #544259;
+    font-weight: 700;
+}
+
+.card{
+    margin: 0;
+    border: none;
+    border-radius: none;
+    height: 18rem;
+}
+
+.cardInfo{
+    bottom: 0;
+    left: 0;
+    top:0;
+    right: 0;
+    z-index: 9;
+    position: absolute;
+    
+    padding: 1.5rem;
+    opacity: 0;
+    transition-property: opacity;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+}
+
+.cardInfo:hover{
+    opacity: 1;
+}
+
+.card-img{
+    height: 100%;
+    border: none;
+}
+
+.img-thumbnail{
+    padding: 0;
+}
+
+.imgTitle{
+    margin-top: -16.5rem;
+    margin-left: 1.5rem;
+}
+
+
+.cardOpt1{
+    background: #B1504E;
+    color: #333333;
+}
+
+.cardOpt2{
+    background-color: #80CAD9;
+    color: #EAE8E4;
+}
+
+.cardOpt3{
+    background-color: #123840;
+    color: #EAE8E4;
+}
+
+.cardOpt4{
+    background-color: #D980A4;
+}
+
+.no-gutter-card-deck.card-columns {
+    column-gap: 0;
+}
+
+.no-gutter-card-deck > .card {
+    margin: 0;
+}
+
+/* 
+.rightCol{
+    border-left: grey 2px solid;
+}
+
+.mainCol{
+    position: absolute;
+    background-color: black;
+    height: 50px;
+    left: 100px;
 }
 
 a:hover{
@@ -36,6 +187,7 @@ nav{
     border-radius: 0;
     display: inline-block;
     border: none;
+    height: 80vh;
 }
 
 .img-thumbnail{
@@ -134,4 +286,8 @@ h1{
     li{
         font-size: 18px;
     }
-}
+
+    .leftCol{
+        width: 25%;
+    }
+} */
