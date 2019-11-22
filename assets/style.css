@@ -1,7 +1,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(90deg, #EAE8E4 50%, #72A692 50%);
     color: #333333;
+}
+.container{
+    padding-left: 0;
 }
 
 a,
@@ -16,16 +18,41 @@ h2{
     font-family: 'Chango', cursive;
 }
 
+h5{
+    font-size: 1.3rem;
+}
+
+body{
+    color: #333333;
+	background: linear-gradient(90deg, #EAE8E4 60%, #72A692 60%);
+    background-size: 100% 100%;
+    animation-fill-mode: none;
+    animation: gradientBG 4s ease-in-out 1 reverse;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-size: 100% 100%;
+	}
+	50% {
+		background-size: 150% 150%;
+	}
+	100% {
+        background-size: 20% 20%;
+	}
+}
+
 .Acontainer{
     float: left;
     height: 100vh;
-    padding: 4rem 4rem 4rem 5rem;
+    padding-left: 2rem;
 }
 
 .Bcontainer{
     float: left;
     height: 100vh;
-    padding-left: 5rem;
+    padding-left: 0;
+    margin-top: 4rem;
 }
 
 .info{
@@ -84,6 +111,7 @@ h2{
     border: none;
     border-radius: none;
     height: 18rem;
+    width: 100%;
 }
 
 .cardInfo{
@@ -93,11 +121,10 @@ h2{
     right: 0;
     z-index: 9;
     position: absolute;
-    
-    padding: 1.5rem;
+    padding: 1.5rem 1rem 1.5rem 1.5rem;
     opacity: 0;
     transition-property: opacity;
-	transition-duration: 0.5s;
+	transition-duration: 0.4s;
 	transition-timing-function: linear;
 }
 
@@ -120,32 +147,45 @@ h2{
 }
 
 
-.cardOpt1{
-    background: #B1504E;
-    color: #333333;
-}
-
-.cardOpt2{
-    background-color: #80CAD9;
-    color: #EAE8E4;
-}
-
-.cardOpt3{
-    background-color: #123840;
-    color: #EAE8E4;
-}
-
-.cardOpt4{
-    background-color: #D980A4;
-}
-
-.no-gutter-card-deck.card-columns {
+.card-columns {
     column-gap: 0;
+    margin: 0;
+    width: 100vw;
 }
 
-.no-gutter-card-deck > .card {
-    margin: 0;
+.card-columns .card{
+    margin-bottom: 0;
 }
+
+#portfolioHeader{
+    padding-left: 1rem;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 5;
+    }
+}
+
+
 
 /* 
 .rightCol{
