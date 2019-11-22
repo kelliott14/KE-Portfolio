@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    console.log("Hello. Welcome to my portfolio.")
 
     $(".infoText").hide("slow", function(){});
     $(".infoText").attr("visible-status", "hide");
