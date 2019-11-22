@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    background: #EAE8E4;
+   
     color: #333333;
 }
 
@@ -15,6 +15,32 @@ h1,
 h2{
     font-family: 'Chango', cursive;
 }
+
+h5{
+    font-size: 1.3rem;
+}
+
+body{
+    color: #333333;
+	background: linear-gradient(110deg, #EAE8E4, #EAE8E4, #72A692, #618C7C, #EAE8E4, #EAE8E4, #EAE8E4);
+    background-size: 400% 400%;
+    animation-fill-mode: none;
+    animation: gradientBG 8s ease-out 1 reverse;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
+}
+
+
 
 .Acontainer{
     float: left;
@@ -93,8 +119,7 @@ h2{
     right: 0;
     z-index: 9;
     position: absolute;
-    
-    padding: 1.5rem;
+    padding: 1.5rem 1rem 1.5rem 1.5rem;
     opacity: 0;
     transition-property: opacity;
 	transition-duration: 0.4s;

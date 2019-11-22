@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     $(".infoText").hide("slow", function(){});
     $(".infoText").attr("visible-status", "hide");
     $(".collapseIcon").css({"transform": "rotate(-180deg)"});
@@ -22,25 +23,41 @@ $(document).ready(function() {
     var num;
     var scheme = {
         1: {
-            background: "#B1504E",
-            font: "#333333"
+            background: "#048A81",
+            font: "#EAE8E4"
         },
         2: {
-            background: "#80CAD9",
+            background: "#BF211E",
             font: "#EAE8E4"
         },
         3: {
-            background: "#D980A4",
+            background: "#3423A6",
             font: "#EAE8E4"
         },
         4: {
-            background: "#123840",
+            background: "#1EFFBC",
+            font: "#333333"
+        },
+        5: {
+            background: "#7D53DE",
             font: "#EAE8E4"
+        },
+        6: {
+            background: "#FAFF81",
+            font: "#333333"
+        },
+        7: {
+            background: "#0D1B1E",
+            font: "#EAE8E4" 
+        },
+        8: {
+            background: "#EAE8E4",
+            font: "#333333" 
         }
     }
 
     $(".cardInfo").hover( function() {
-        num = Math.floor(Math.random() * 4) + 1;
+        num = Math.floor(Math.random() * 8) + 1;
         $(this).css("background-color", scheme[num].background);
         $(this).css("color", scheme[num].font);
         $(this).children(".btn").css("color", scheme[num].font);
@@ -48,4 +65,6 @@ $(document).ready(function() {
     });
 
 });
+
+// #72A692
 
