@@ -22,21 +22,21 @@ h5{
 
 body{
     color: #333333;
-	background: linear-gradient(110deg, #EAE8E4, #EAE8E4, #72A692, #618C7C, #EAE8E4, #EAE8E4, #EAE8E4);
-    background-size: 400% 400%;
+	background: linear-gradient(90deg, #EAE8E4 60%, #72A692 60%);
+    background-size: 100% 100%;
     animation-fill-mode: none;
-    animation: gradientBG 8s ease-out 1 reverse;
+    animation: gradientBG 4s ease-in-out 1 reverse;
 }
 
 @keyframes gradientBG {
 	0% {
-		background-position: 0% 50%;
+		background-size: 100% 100%;
 	}
 	50% {
-		background-position: 100% 50%;
+		background-size: 150% 150%;
 	}
 	100% {
-		background-position: 0% 0%;
+        background-size: 20% 20%;
 	}
 }
 
