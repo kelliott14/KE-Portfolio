@@ -11,11 +11,13 @@ a,
     color: #333333;
 }
 
-a:hover {
+.contactLinks>a:hover {
     text-decoration: none;
     font-size: 1.1rem;
     color: white;
 }
+
+
 
 h5,
 h4,
@@ -183,6 +185,12 @@ body{
     .card-columns {
         column-count: 4;
     }
+}
+
+.btn:hover {
+    color: white;
+    border-color: white;
+    background-color: #343a40;
 }
 
 /* @media (min-width: 1200px) {
