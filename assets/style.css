@@ -11,6 +11,12 @@ a,
     color: #333333;
 }
 
+a:hover {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+
 h5,
 h4,
 h1,
@@ -24,7 +30,7 @@ h5{
 
 body{
     color: #333333;
-	background: linear-gradient(90deg, #EAE8E4 60%, #72A692 60%);
+	background: linear-gradient(90deg, #666666 60%, #fdcd3b 60%);
     background-size: 100% 100%;
     animation-fill-mode: none;
     animation: gradientBG 4s ease-in-out 1 reverse;
